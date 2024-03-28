@@ -3,8 +3,13 @@
 .content_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   @include breakpoint(600px) {
     grid-template-columns: 1fr;
+
+    .cont-text {
+      padding: 40rem 0;
+    }
   }
 }
 

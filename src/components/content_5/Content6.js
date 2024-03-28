@@ -17,7 +17,7 @@ export function Content6() {
               </div>
             </div>
           </div>
-          <div class="img"></div>
+          <div className="img"></div>
         </div>
       </div>
     </div>
